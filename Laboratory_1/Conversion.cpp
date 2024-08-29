@@ -1,4 +1,4 @@
-// conversion.cpp – Zac Schmunk – 29 August 2024
+// conversion.cpp â€“ Zac Schmunk â€“ 29 August 2024
 // program will accept input in the form: number letter (e.g. 32 f)
 // and will convert the specified temperature from Fahrenheit to Celsius
 // or vice versa, depending on input (either c or f)
@@ -41,7 +41,7 @@ int main(void) {
 	}
 	// present result and terminate program execution
 	cout << convertedTemperature << " " << convertedScale << endl;
-	cout << "Press 'Enter' to continue...";
+	cout << "Press 'Enter' to exit...";
 	cin.ignore();
 	cin.get();
 	return 0;
